@@ -37,6 +37,26 @@
             <version>4.12</version>
             <scope>test</scope>
         </dependency>
+        <!-- TestNG -->
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.10.2</version>
+            <scope>test</scope>
+        </dependency>
+        <!-- Agent ReportPortal dla TestNG -->
+        <dependency>
+            <groupId>com.epam.reportportal</groupId>
+            <artifactId>agent-java-testng</artifactId>
+            <version>5.6.8</version> <!-- Sprawdź najnowszą wersję 5.x -->
+            <scope>test</scope>
+        </dependency>
+        <!-- Logger niezbędny do przesyłania logów i screenshotów -->
+        <dependency>
+            <groupId>com.epam.reportportal</groupId>
+            <artifactId>logger-java-logback</artifactId>
+            <version>5.2.2</version>
+        </dependency>
     </dependencies>
 
 </project>
